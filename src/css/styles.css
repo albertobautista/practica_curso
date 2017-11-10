@@ -1,0 +1,124 @@
+.background{
+    background-color: #FFF;
+    padding: 3px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-bottom-color: rgb(199, 199, 199);
+    border-top-color: rgb(199, 199, 199);
+}
+.tittleFormat{
+    font-size: 12px;
+    color: inherit;
+    color: #6D6D6D;
+    font-weight: bold;
+    padding-top:7px;
+}
+.tittleFormat:hover{
+    color: inherit;
+    color: #0084B4;
+    border-bottom: 2px solid;
+    border-bottom-color: #0084B4;
+}
+.twitterIcon{
+    color: #0084B4;
+    font-size: 22px;
+}
+.inputSearch{
+    margin-top:3px;
+    padding: 5px;
+    border-radius: 16px;
+    border-color: rgb(165, 165, 165);
+    font-size: 11px;
+    width: 200px;
+    border: none;
+    background-color: #f5f8fa;
+}
+.inputSearch:focus{
+    border: 1px solid;
+    border-color: #329CC3;
+    background-color: #FFF;
+}
+.imageWidth{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+.imageWidthProfile{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    border:2px solid;
+    border-color: #fff;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 4px;
+}
+.buttonStyle{
+    margin-top:3px;
+    padding: 3px;
+    background-color: #329CC3;
+    color: #FFF;
+    border: none;
+    border-radius: 14px;
+    padding: 2px;
+    width: 60px;
+    font-weight: bold;
+}
+.twittetButton{
+    font-size: 12px;
+}
+.heightImage{
+    height: 100px;
+}
+.trendsTittle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.w100{
+    width: 17%;
+    background-color: #FFF;
+    padding-left: 20px;
+    margin-left: 114px;
+}
+.wi100{
+    width: 17%;
+    background-color: #FFF;
+    
+    margin-left: 114px;
+}
+.ulTrends{
+    font-size: 14px;
+    color: #329CC3;
+    font-weight: bold;
+}
+.ulTrendsDescription{
+    font-size: 11px;
+    color: rgb(109, 108, 108);
+}
+.back{
+    background-color: #e6ecf0;
+    height: 800px;
+}
+.width{
+    width: 100%;
+    padding-top:0px;
+    height: 100px; 
+}
+.nameStyle{
+    font-size: 17px;
+    font-weight: bold;
+}
+.userNameStyle{
+    font-size: 13px;
+    color: rgb(160, 160, 160);
+}
+.infoProfile{
+    font-size: 12px;
+    color: rgb(109, 108, 108);
+    font-weight: bold;
+}
+.infoProfileNumbers{
+    font-size: 14px;
+    color: #329CC3;
+    font-weight: bold;
+}
