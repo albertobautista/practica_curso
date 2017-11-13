@@ -17,6 +17,7 @@ export const TrendsInfo = ({trends}) => {
                                     <Trend tittle={trend.tittle} description={trend.description}/>
                                 )
                             })}
+                            <br/>
                         </div>
                     </div>
                 </div>

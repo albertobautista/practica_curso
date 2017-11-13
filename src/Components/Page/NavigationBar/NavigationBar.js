@@ -4,7 +4,7 @@ export class NavigationBar extends Component{
     render() {
         return (
             <div className="background">
-                <div className="row s">
+                <div className="row">
                     <div className="col-md-1 col-lg-1"></div>
                     <div className="col-md-4">
                         <div className="row">
