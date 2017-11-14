@@ -4,6 +4,7 @@ import {NavigationBar} from './NavigationBar/NavigationBar';
 import {ProfileInfo} from './ProfileInfo/ProfileInfo';
 import {TweetBox} from './TweetBox/TweetBox';
 import {Tweet} from './Tweet/Tweet';
+import {FollowBox} from './FollowBox/FollowBox';
 
 export class Page extends Component{
     constructor(props){
@@ -37,19 +38,21 @@ export class Page extends Component{
             <div className="">
                 <NavigationBar/>  <br/>
                 <div className="row">
-                    <div className="col-md-2">
+                    <div className="col-md-2 example">
                         <ProfileInfo/><br/>
                         <TrendsInfo trends={this.state.trends} />
                     </div>
-                    <div className="col-md-1">
-                    </div>
-                    <div className="col-md-2">
+                    <div className="col-md-1"></div>
+                    <div className="col-md-5">
                         <TweetBox/>
                         <div className="row">
                             <div className="col-md-12">
                                 <Tweet tweets={ this.state.tweets}/>
                             </div>
                         </div>
+                    </div>
+                    <div className="col-md-2">
+                        <FollowBox/>    
                     </div>
                 </div><br/>          
             </div>

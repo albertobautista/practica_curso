@@ -8,9 +8,9 @@ export class NavigationBar extends Component{
                     <div className="col-md-1 col-lg-1"></div>
                     <div className="col-md-4">
                         <div className="row">
-                            <div className="col-md-2 col-lg-2 tittleFormat"><center><i className="fa fa-home " aria-hidden="true"></i><span> Home</span></center></div>
+                            <div className="col-md-2 col-lg-3 tittleFormat"><center><i className="fa fa-home " aria-hidden="true"></i><span> Home</span></center></div>
                             <div className="col-md-3 col-lg-3 tittleFormat"><center><i className="fa fa-bolt" aria-hidden="true"></i> Moments</center></div>
-                            <div className="col-md-3 col-lg-3 tittleFormat"><center><i className="fa fa-bell-o" aria-hidden="true"></i> Notifications</center></div>
+                            <div className="col-md-3 col-lg-3 tittleFormat"><center><i className="fa fa-bell-o" aria-hidden="true"></i> Notificatio</center></div>
                             <div className="col-md-3 col-lg-3 tittleFormat"><center><i className="fa fa-envelope-o" aria-hidden="true"></i> Messages</    center></div>
                         </div>
                     </div>

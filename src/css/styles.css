@@ -29,7 +29,7 @@
     border-radius: 16px;
     border-color: rgb(165, 165, 165);
     font-size: 11px;
-    width: 200px;
+    width: 180px;
     border: none;
     background-color: #f5f8fa;
 }
@@ -37,6 +37,7 @@
     border: 1px solid;
     border-color: #329CC3;
     background-color: #FFF;
+    outline: none;
 }
 .imageWidth{
     width:30px;
@@ -124,11 +125,11 @@
 }
 .tweetBack{
     background-color: #e6ecf0;
-    width: 600px;
+    width: 100%;
 }
 .tweetBackBox{
     background-color: #E5F2F7;
-    width: 600px;
+    width: 100%;
 }
 .mywidth{
     width: 100%;
@@ -156,6 +157,7 @@
     border: 1px solid;
     border-color: #329CC3;
     background-color: #FFF;
+    outline: none;
 }
 .padding{
     padding: 5px;
@@ -214,4 +216,46 @@
 }
 .tweetBoxBack{
     background-color: #329CC3!important;
+}
+.example{
+    width: 18.666667% !important;
+}
+.backFollowBox{
+    background-color: #fff;
+    padding-left: 17px;
+    padding-top: 9px;
+    width: 100%;
+
+}
+.followTittle{
+    font-size: 16px;
+    font-weight: bold;
+}
+.buttonStyleFollow{
+    margin-top:3px;
+    padding: 3px;
+    background-color: #FFF;
+    color: #329CC3; 
+    border-color: #329CC3;
+    border-radius: 14px;
+    padding: 0px;
+    width: 80px;
+    font-weight: bold;
+    margin-left: 18px;
+}
+.followStyle{
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 18px;
+}
+.userFollow{
+    font-size: 12px;
+    color: rgb(141, 139, 139);
+}
+.imageFollow{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border:2px solid;
+    border-color: transparent;
 }
